@@ -26,6 +26,22 @@ class Assets {
   /// asset/images/splach_image.png
   static const String assetsImagesSplachImage = "asset/images/splach_image.png";
 
+  /// Assets for assetsImagesWavy01
+  /// asset/images/Wavy01.jpg
+  static const String assetsImagesWavy01 = "asset/images/Wavy01.jpg";
+
+  /// Assets for assetsImagesWavy02
+  /// asset/images/Wavy02.jpg
+  static const String assetsImagesWavy02 = "asset/images/Wavy02.jpg";
+
+  /// Assets for assetsImagesWavy03
+  /// asset/images/Wavy03.jpg
+  static const String assetsImagesWavy03 = "asset/images/Wavy03.jpg";
+
+  /// Assets for assetsImagesWavy04
+  /// asset/images/Wavy04.jpg
+  static const String assetsImagesWavy04 = "asset/images/Wavy04.jpg";
+
   /// Assets for assetsLangArEG
   /// asset/lang/ar-EG.json
   static const String assetsLangArEG = "asset/lang/ar-EG.json";
