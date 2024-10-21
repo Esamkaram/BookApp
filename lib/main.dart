@@ -3,6 +3,7 @@ import 'package:bookappnewstar/core/network/dio_hleper.dart';
 import 'package:bookappnewstar/core/observer.dart';
 import 'package:bookappnewstar/core/style/theme.dart';
 import 'package:bookappnewstar/features/home/ui/home_screen.dart';
+import 'package:bookappnewstar/features/login/ui/login_screen.dart';
 import 'package:bookappnewstar/features/onbording/cubit/onbording_cubit.dart';
 import 'package:bookappnewstar/features/onbording/onbording_screen.dart';
 import 'package:easy_localization/easy_localization.dart';
@@ -44,7 +45,7 @@ class MyApp extends StatelessWidget {
       home: BlocProvider(
         create: (context) => OnbordingCubit(),
         child: (CacheHelper.getDate(key: 'inBoarding'))
-            ? const HomeScreen()
+            ? const LoginScreen()
             : const OnbordingScreen(),
       ),
     );
